@@ -4,10 +4,10 @@
   "description": "A simple Agar.io clone",
   "main": "server/server.js",
   "scripts": {
-    "build": "gulp build",
-    "start": "gulp run",
-    "watch": "gulp watch",
-    "test": "gulp test"
+    "build": "node node_modules/gulp/bin/gulp build",
+    "start": "node node_modules/gulp/bin/gulp run",
+    "watch": "node node_modules/gulp/bin/gulp watch",
+    "test": "node node_modules/gulp/bin/gulp test"
   },
   "repository": {
     "type": "git",
